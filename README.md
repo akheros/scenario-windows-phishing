@@ -4,9 +4,9 @@ This scenario showcases a workstation user opening a file containing a malware.
 ## Installation
 
 This scenario requires a Windows XP VM with WinRM installed. See 
-[here](/akheros/moirai/wiki/How-to-get-a-Windows-XP-box-in-Vagrant) on how to do 
-that. This VM should also have Adobe Acrobat 9 installed. The install file is in 
-the `install` directory.
+[here](https://github.com/akheros/moirai/wiki/How-to-get-a-Windows-XP-box-in-Vagrant) 
+on how to do that. This VM should also have Adobe Acrobat 9 installed. The 
+install file is in the `install` directory.
 
 The second VM should have metasploit and pupy installed. Pupy must be patched in 
 order to execute more than one module with the `run_module` directive. Copy the 
